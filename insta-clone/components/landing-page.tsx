@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native'
+import { StyleSheet, Text, Image, TouchableOpacity } from 'react-native'
 import { LinearGradient } from 'expo-linear-gradient'
 import React from 'react'
 
@@ -58,6 +58,6 @@ const styles = StyleSheet.create({
     buttonText: {
         fontSize: 16,
         fontWeight: 'bold',
-        color: 'd6249f'
+        color: '#d6249f'
     }
 })
