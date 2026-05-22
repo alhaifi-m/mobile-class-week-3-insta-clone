@@ -13,6 +13,9 @@ const LandingPage = () => {
         <TouchableOpacity style={styles.button}>
             <Text style={styles.buttonText}>Log In</Text>
         </TouchableOpacity>
+        <TouchableOpacity style={[styles.button, styles.secondaryButton]}>
+            <Text style={[styles.buttonText, styles.secondaryButtonText]}>Sign Up</Text>
+        </TouchableOpacity>
     </LinearGradient>
   )
 }
@@ -59,5 +62,13 @@ const styles = StyleSheet.create({
         fontSize: 16,
         fontWeight: 'bold',
         color: '#d6249f'
+    },
+    secondaryButton:{
+        backgroundColor: "transparent",
+        borderWidth: 2,
+        borderColor:"#fff",
+    },
+    secondaryButtonText: {
+        color: "#fff"
     }
 })

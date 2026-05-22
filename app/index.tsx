@@ -1,10 +1,11 @@
 import { Text, View, StyleSheet } from "react-native";
 import LandingPage from "../components/landing-page";
-
+import MainPage from "../components/main-page";
 export default function Index() {
   return (
     <View style={styles.container}>
-    <LandingPage />
+    {/* <LandingPage /> */}
+    <MainPage/>
     </View>
   );
 }
